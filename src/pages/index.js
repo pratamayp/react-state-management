@@ -1,2 +1,2 @@
 export * from './home';
-export * from './context';
+export * from './context/index';

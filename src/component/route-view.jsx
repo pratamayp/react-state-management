@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { Context, Home } from '../pages';
+import { ContextWrapper as Context, Home } from '../pages';
 
 export const RouteView = () => {
   return (
