@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { ContextWrapper as Context, Home } from '../pages';
+import { Zustand, ContextWrapper as Context, Home } from '../pages';
 
 export const RouteView = () => {
   return (
@@ -7,6 +7,7 @@ export const RouteView = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/context" element={<Context />} />
+        <Route path="/zustand" element={<Zustand />} />
       </Routes>
     </div>
   );

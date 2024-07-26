@@ -9,6 +9,9 @@ export const RouteLink = () => {
       <li>
         <NavLink to="/context">Context</NavLink>
       </li>
+      <li>
+        <NavLink to="/zustand">Zustand</NavLink>
+      </li>
     </ul>
   );
 };
