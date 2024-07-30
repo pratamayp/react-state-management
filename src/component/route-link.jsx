@@ -12,6 +12,9 @@ export const RouteLink = () => {
       <li>
         <NavLink to="/zustand">Zustand</NavLink>
       </li>
+      <li>
+        <NavLink to="/redux">Redux</NavLink>
+      </li>
     </ul>
   );
 };

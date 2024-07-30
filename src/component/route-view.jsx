@@ -1,5 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
-import { Zustand, ContextWrapper as Context, Home } from '../pages';
+import {
+  ReduxWrapper as Redux,
+  Zustand,
+  ContextWrapper as Context,
+  Home,
+} from '../pages';
 
 export const RouteView = () => {
   return (
@@ -8,6 +13,7 @@ export const RouteView = () => {
         <Route path="/" element={<Home />} />
         <Route path="/context" element={<Context />} />
         <Route path="/zustand" element={<Zustand />} />
+        <Route path="/redux" element={<Redux />} />
       </Routes>
     </div>
   );
