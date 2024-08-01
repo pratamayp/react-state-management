@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { add, reduce } from '../../store/redux/slice';
+import { add, reduce } from '../../store/redux/count';
 
 export const Children1 = () => {
   const dispatch = useDispatch();

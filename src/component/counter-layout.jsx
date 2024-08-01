@@ -1,4 +1,4 @@
-export const ContentLayout = ({ type, count, children }) => {
+export const CounterLayout = ({ type, count, children }) => {
   return (
     <>
       <h3>This state is managed by {type}</h3>

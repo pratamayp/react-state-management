@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
-import { set } from '../../store/redux/slice';
+import { set } from '../../store/redux/count';
 
 export const Children2 = () => {
   const count = useSelector((state) => state.counter.count);
